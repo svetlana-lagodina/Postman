@@ -1,0 +1,311 @@
+{
+	"info": {
+		"_postman_id": "4a9afeda-be00-4987-9b6f-4998f4dc0845",
+		"name": "interceptor",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\""
+					},
+					{
+						"key": "X-XSRF-TOKEN",
+						"value": "1649802775|PLgYk6gOSj-7"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "authorization",
+						"value": "VbCw-0LpQnye7ntaVpL0UjAE1KAaT0A9u6Zv-aV3reA.eyJpbnN0YW5jZUlkIjoiZjQ2Y2Q1MDItZjcyZi00NGY3LTk2MzgtNWRhMWRlYjBiNGU3IiwiYXBwRGVmSWQiOiIxNTA1Yjc3NS1lODg1LWViMWItYjY2NS0xZTQ4NWQ5YmY5MGUiLCJtZXRhU2l0ZUlkIjoiMjhiNzkzZDYtNTQyNC00MDU4LTgwNDktMDI2YTRkYjAyODJmIiwic2lnbkRhdGUiOiIyMDIyLTA0LTEzVDAxOjA1OjM4Ljg1MloiLCJ1aWQiOiIzYzI0ZDdiYS02ODJhLTQ1NDgtYmRmOS0zNDA4NjM0ZWZkNjAiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjQ5NTA2ZTczLTdkOTItNDM4Yy1iYzZiLTU1YjY0MjFjNTM2ZCIsImJpVG9rZW4iOiJkY2RiNDZkNC1hMzBiLTA0YWYtMTY3MS01ZmNiOTMwMDljYzgiLCJzaXRlT3duZXJJZCI6ImY5MTRmMTFjLWFhYjMtNDUyNy04ZDRlLWJhYjc2MjE0M2E2MCIsImV4cGlyYXRpb25EYXRlIjoiMjAyMi0wNC0xM1QwNTowNTozOC44NTJaIiwiaGFzVXNlclJvbGUiOmZhbHNlfQ"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "commonConfig",
+						"value": "%7B%22brand%22%3A%22wix%22%2C%22BSI%22%3A%22900183e1-27f8-4ba2-b161-c20e82cb9d95%7C1%22%7D"
+					},
+					{
+						"key": "x-wix-brand",
+						"value": "wix"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"
+					},
+					{
+						"key": "X-Wix-Client-Artifact-Id",
+						"value": "addresses-modals"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-gpc",
+						"value": "1"
+					},
+					{
+						"key": "host",
+						"value": "addresses.wixapps.net"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"address\":{\"fullName\":{\"firstName\":\"Svetlana\",\"lastName\":\"Lagodina\"},\"company\":null,\"taxInfo\":{\"id\":null,\"type\":null},\"addressLine1\":\"27102 silver oak ln\",\"addressLine2\":\"1035\",\"street\":{\"name\":null,\"number\":null},\"city\":\"canyon country\",\"country\":\"ALB\",\"subdivision\":null,\"zipCode\":\"91387\",\"phoneNumber\":\"56567788\",\"location\":null},\"setAsDefault\":true}"
+				},
+				"url": {
+					"raw": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses",
+					"protocol": "https",
+					"host": [
+						"addresses",
+						"wixapps",
+						"net"
+					],
+					"path": [
+						"_api",
+						"addresses-web",
+						"v1",
+						"addresses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\""
+					},
+					{
+						"key": "X-XSRF-TOKEN",
+						"value": "1649802775|PLgYk6gOSj-7"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "authorization",
+						"value": "VbCw-0LpQnye7ntaVpL0UjAE1KAaT0A9u6Zv-aV3reA.eyJpbnN0YW5jZUlkIjoiZjQ2Y2Q1MDItZjcyZi00NGY3LTk2MzgtNWRhMWRlYjBiNGU3IiwiYXBwRGVmSWQiOiIxNTA1Yjc3NS1lODg1LWViMWItYjY2NS0xZTQ4NWQ5YmY5MGUiLCJtZXRhU2l0ZUlkIjoiMjhiNzkzZDYtNTQyNC00MDU4LTgwNDktMDI2YTRkYjAyODJmIiwic2lnbkRhdGUiOiIyMDIyLTA0LTEzVDAxOjA1OjM4Ljg1MloiLCJ1aWQiOiIzYzI0ZDdiYS02ODJhLTQ1NDgtYmRmOS0zNDA4NjM0ZWZkNjAiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjQ5NTA2ZTczLTdkOTItNDM4Yy1iYzZiLTU1YjY0MjFjNTM2ZCIsImJpVG9rZW4iOiJkY2RiNDZkNC1hMzBiLTA0YWYtMTY3MS01ZmNiOTMwMDljYzgiLCJzaXRlT3duZXJJZCI6ImY5MTRmMTFjLWFhYjMtNDUyNy04ZDRlLWJhYjc2MjE0M2E2MCIsImV4cGlyYXRpb25EYXRlIjoiMjAyMi0wNC0xM1QwNTowNTozOC44NTJaIiwiaGFzVXNlclJvbGUiOmZhbHNlfQ"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "commonConfig",
+						"value": "%7B%22brand%22%3A%22wix%22%2C%22BSI%22%3A%22900183e1-27f8-4ba2-b161-c20e82cb9d95%7C1%22%7D"
+					},
+					{
+						"key": "x-wix-brand",
+						"value": "wix"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"
+					},
+					{
+						"key": "X-Wix-Client-Artifact-Id",
+						"value": "address-book"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-gpc",
+						"value": "1"
+					},
+					{
+						"key": "host",
+						"value": "addresses.wixapps.net"
+					}
+				],
+				"url": {
+					"raw": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses",
+					"protocol": "https",
+					"host": [
+						"addresses",
+						"wixapps",
+						"net"
+					],
+					"path": [
+						"_api",
+						"addresses-web",
+						"v1",
+						"addresses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses/6d95830b-a4e1-42ea-a41a-c82b7d375b0b",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\""
+					},
+					{
+						"key": "X-XSRF-TOKEN",
+						"value": "1649802775|PLgYk6gOSj-7"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "authorization",
+						"value": "VbCw-0LpQnye7ntaVpL0UjAE1KAaT0A9u6Zv-aV3reA.eyJpbnN0YW5jZUlkIjoiZjQ2Y2Q1MDItZjcyZi00NGY3LTk2MzgtNWRhMWRlYjBiNGU3IiwiYXBwRGVmSWQiOiIxNTA1Yjc3NS1lODg1LWViMWItYjY2NS0xZTQ4NWQ5YmY5MGUiLCJtZXRhU2l0ZUlkIjoiMjhiNzkzZDYtNTQyNC00MDU4LTgwNDktMDI2YTRkYjAyODJmIiwic2lnbkRhdGUiOiIyMDIyLTA0LTEzVDAxOjA1OjM4Ljg1MloiLCJ1aWQiOiIzYzI0ZDdiYS02ODJhLTQ1NDgtYmRmOS0zNDA4NjM0ZWZkNjAiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjQ5NTA2ZTczLTdkOTItNDM4Yy1iYzZiLTU1YjY0MjFjNTM2ZCIsImJpVG9rZW4iOiJkY2RiNDZkNC1hMzBiLTA0YWYtMTY3MS01ZmNiOTMwMDljYzgiLCJzaXRlT3duZXJJZCI6ImY5MTRmMTFjLWFhYjMtNDUyNy04ZDRlLWJhYjc2MjE0M2E2MCIsImV4cGlyYXRpb25EYXRlIjoiMjAyMi0wNC0xM1QwNTowNTozOC44NTJaIiwiaGFzVXNlclJvbGUiOmZhbHNlfQ"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "commonConfig",
+						"value": "%7B%22brand%22%3A%22wix%22%2C%22BSI%22%3A%22900183e1-27f8-4ba2-b161-c20e82cb9d95%7C1%22%7D"
+					},
+					{
+						"key": "x-wix-brand",
+						"value": "wix"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"
+					},
+					{
+						"key": "X-Wix-Client-Artifact-Id",
+						"value": "addresses-modals"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-gpc",
+						"value": "1"
+					},
+					{
+						"key": "host",
+						"value": "addresses.wixapps.net"
+					}
+				],
+				"url": {
+					"raw": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses/6d95830b-a4e1-42ea-a41a-c82b7d375b0b",
+					"protocol": "https",
+					"host": [
+						"addresses",
+						"wixapps",
+						"net"
+					],
+					"path": [
+						"_api",
+						"addresses-web",
+						"v1",
+						"addresses",
+						"6d95830b-a4e1-42ea-a41a-c82b7d375b0b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses/6d95830b-a4e1-42ea-a41a-c82b7d375b0b",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\""
+					},
+					{
+						"key": "X-XSRF-TOKEN",
+						"value": "1649802775|PLgYk6gOSj-7"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "authorization",
+						"value": "VbCw-0LpQnye7ntaVpL0UjAE1KAaT0A9u6Zv-aV3reA.eyJpbnN0YW5jZUlkIjoiZjQ2Y2Q1MDItZjcyZi00NGY3LTk2MzgtNWRhMWRlYjBiNGU3IiwiYXBwRGVmSWQiOiIxNTA1Yjc3NS1lODg1LWViMWItYjY2NS0xZTQ4NWQ5YmY5MGUiLCJtZXRhU2l0ZUlkIjoiMjhiNzkzZDYtNTQyNC00MDU4LTgwNDktMDI2YTRkYjAyODJmIiwic2lnbkRhdGUiOiIyMDIyLTA0LTEzVDAxOjA1OjM4Ljg1MloiLCJ1aWQiOiIzYzI0ZDdiYS02ODJhLTQ1NDgtYmRmOS0zNDA4NjM0ZWZkNjAiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjQ5NTA2ZTczLTdkOTItNDM4Yy1iYzZiLTU1YjY0MjFjNTM2ZCIsImJpVG9rZW4iOiJkY2RiNDZkNC1hMzBiLTA0YWYtMTY3MS01ZmNiOTMwMDljYzgiLCJzaXRlT3duZXJJZCI6ImY5MTRmMTFjLWFhYjMtNDUyNy04ZDRlLWJhYjc2MjE0M2E2MCIsImV4cGlyYXRpb25EYXRlIjoiMjAyMi0wNC0xM1QwNTowNTozOC44NTJaIiwiaGFzVXNlclJvbGUiOmZhbHNlfQ"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "commonConfig",
+						"value": "%7B%22brand%22%3A%22wix%22%2C%22BSI%22%3A%22900183e1-27f8-4ba2-b161-c20e82cb9d95%7C1%22%7D"
+					},
+					{
+						"key": "x-wix-brand",
+						"value": "wix"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"
+					},
+					{
+						"key": "X-Wix-Client-Artifact-Id",
+						"value": "address-book"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-gpc",
+						"value": "1"
+					},
+					{
+						"key": "host",
+						"value": "addresses.wixapps.net"
+					}
+				],
+				"url": {
+					"raw": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses/6d95830b-a4e1-42ea-a41a-c82b7d375b0b",
+					"protocol": "https",
+					"host": [
+						"addresses",
+						"wixapps",
+						"net"
+					],
+					"path": [
+						"_api",
+						"addresses-web",
+						"v1",
+						"addresses",
+						"6d95830b-a4e1-42ea-a41a-c82b7d375b0b"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
